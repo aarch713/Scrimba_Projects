@@ -1,0 +1,52 @@
+html{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:16px;
+    background-color:#161616;
+    color:white;
+}
+
+#welcome,#navBar{
+
+    width:100%;
+    min-width: 1450px;
+    max-width:1800px;
+    border:3px dotted white;
+
+}
+#navBar ul {
+    font-size:0.9rem;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style:none;
+}
+
+#welcome{
+    text-align: center;
+    word-spacing:4px ;
+    color:white;
+}
+#navBar ul li{
+    padding:18px;
+    word-spacing:4px ;
+}
+#navBar a{
+    border:3px dotted white;
+    padding: 10px 15px;
+    border-radius:100px;
+    background: #283670;
+    color: #60afa1;
+
+}
+
+#navBar a:hover{
+    border:3px solid white;
+}
+
+#navBar a:link{
+    text-decoration: none;
+}
