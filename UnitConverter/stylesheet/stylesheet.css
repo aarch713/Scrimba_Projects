@@ -1,18 +1,121 @@
+html{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size:16px;
+}
+
 body{
+
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin:auto auto;
+    background: beige;
+}
 
+.container1 h1{
+    color: white;
+    margin:40px auto;
+    text-shadow: 0 1px 4px black;
 
+}
+
+.container1 button{
+    margin-top:20px;
+    font-size:1.3rem;
+    padding:10px 20px;
+    border-radius: 6px;
+    border:none;
+    box-shadow: 0 3px #1F2937;
+    cursor:pointer;
+}
+.container1 button:hover{
+    box-shadow:0 3px #6AAA73;
+}
+.container1 button:active{
+    transform: translateY(3px);
+    box-shadow:none;
+}
+
+input:focus{
+    outline: none;
+    caret-color: transparent;
 }
 
 .container1{
     display:flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin:50px auto 0 auto;
+    background: #6943FF;
+    width:600px;
+    height:300px;
+    padding:0;
+    border-top-left-radius:16px;
+    border-top-right-radius:16px;
+}
+
+#input {
+    background-color: transparent;
+    border: 2px solid #B295FF;
+    padding:0;
+    font-size:4.4rem;
+    width:140px;
+    height:90px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    line-height: 50%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container2{
+    /*margin: auto auto;*/
+    background:#1F2937;
+    width:600px;
+    height:480px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+}
+#length{
+    margin-top:35px;
+}
+.container3 {
+    /*border: 1px solid white;*/
+    width:500px;
+    height:115px;
+    color:#CCC1FF;
+    background: #273549;
+    display:flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
-    margin:auto auto;
+    margin:30px auto;
+    border-radius:6px;
+
+}
+.outTitle{
+    padding-top:15px;
+    margin:0;
+    font-weight:400;
+    font-size:1.5rem;
+}
+.outDes{
+    font-weight:300;
+    font-size:1.2rem;
+    line-height:12px;
+    color:white;
+}
+.author{
+    color:#273549;
+    font-style: italic;
+    text-align: end;
 }

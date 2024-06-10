@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit Conversion</title>
+    <link href="./stylesheet/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container1">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input type="number" id = "input" min="0" max="999" name="numberValue" onkeyup=enforceMinMax(this)>
+        <label for="input"></label>
+        <button id="btn">Convert</button>
+    </div>
+
+    <div class="container2">
+        <div class="container3" id="length">
+            <h2 class="outTitle">Length (Meter/Feet)</h2>
+            <p class = "outDes" id="lengthOutput">|</p>
+        </div>
+
+
+
+        <div class="container3" id="volume">
+            <h2 class="outTitle">Volume (Liters/Gallons)</h2>
+            <p class = "outDes" id="volumeOutput">|</p>
+        </div>
+
+
+
+        <div class="container3" id="Mass">
+            <h2 class="outTitle">Mass (Kilograms/Pounds)</h2>
+            <p class = "outDes" id="massOutput">|</p>
+        </div>
+    </div>
+    <footer>
+        <p class="author">Author: Aaron Chai</p>
+    </footer>
+    <script src="./JavaScript/index.js"></script>
+</body>
+</html>
