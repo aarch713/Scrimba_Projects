@@ -2,10 +2,41 @@
 <html>
     <head>
         <title>We are the Champions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <h1>We are the Champions</h1>
-        <script src="index.js"></script>
+        <img id = "headImage" src="./assets/freddie.png">
+        <h1 id="title">We are the Champions</h1>
+        <div id="headContainer">
+            <textarea placeholder="Write your endorsement here" class="borderRadius" id="inputInfo"></textarea>
+            <div class="sub-container">
+                <input type="text" placeholder="From" class="borderRadius sameWidth sameHeight one" >
+                <input type="text" placeholder="To" class="borderRadius sameWidth sameHeight two">
+            </div>
+            <button id="publish-btn" class="borderRadius">Publish</button>
+        </div>
+        <div id="endContainer">
+            <h4>- Endorsements-</h4>
+            <ul id="messageBoard">
+                <li>
+                    <h5 class="toMessage"><strong>XXX</strong></h5>
+                    <p class="content">Leanne! Thank you so much for helping me with the March accounting. Saved so much time because of you! Frode</p>
+                    <h5 class="fromMessage"><strong>XXX</strong></h5>
+                </li>
+
+                <li>
+                    <h5 class="toMessage"><strong>XXX</strong></h5>
+                    <p class="content">Leanne! Thank you so much for helping me with the March accounting. Saved so much time because of you! Frode</p>
+                    <h5 class="fromMessage"><strong>XXX</strong></h5>
+                </li>
+
+            </ul>
+        </div>
+        <script src="index.js" type="module"></script>
     </body>
 </html>

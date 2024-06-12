@@ -1,4 +1,177 @@
+
+
 html, body {
-    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    margin: auto auto;
     padding: 0;
+    background-color: #1B1924;
+    font-size:12px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    max-width:360px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*border: 1px solid red ;*/
+    user-select: none;
+
+}
+#headImage{
+    width:100px;
+    height:100px;
+    margin: 50px 0 0 0;
+}
+
+#title{
+    font-size:2rem;
+    color: white;
+    margin: 20px 0 20px 0;
+}
+::placeholder {
+    color:#8F8F8F;
+    font-size:1rem;
+}
+.borderRadius{
+    border-radius:8px;
+}
+#publish-btn{
+    background-color:#28A9F1;
+    border: none;
+    font-size:2rem;
+}
+#headContainer{
+    display:flex;
+    flex-direction: column;
+    /*border:1px solid red;*/
+
+}
+
+.sub-container{
+    margin:10px 0 10px 0 ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sameHeight{
+    height:35px;
+    border:none;
+    text-align: center;
+    background-color: #444059;
+    border: none;
+}
+
+
+
+.sameWidth{
+    width:150px;
+
+}
+
+#publish-btn{
+    height:55px;
+    font-size:1.8rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.borderRadius::placeholder{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size:1.3rem;
+}
+#inputInfo{
+    padding:12px 18px;
+    width: 280px;
+    height:120px;
+    font-family: "Josefin Sans", sans-serif;
+    resize: none;
+    background-color: #444059;
+    border: none;
+}
+
+#inputInfo::placeholder{
+    text-align:left;
+    font-size:1.3rem;
+}
+
+#endContainer{
+    font-size:2rem;
+    display:flex;
+    flex-direction: column;
+    /*border:1px solid red;*/
+    width:318px;
+
+}
+#endContainer h4{
+    margin:15px auto 10px auto;
+    color:white;
+    font-size:1.6rem;
+    font-weight:600;
+    width:150px;
+    display:flex;
+    justify-content: center;
+
+}
+
+#messageBoard{
+    margin:5px auto;
+    list-style: none;
+    padding-left:0;
+    font-size:1.4rem;
+    /*border:1px solid #A9A9AD;*/
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1B1924;
+
+
+
+
+
+}
+#messageBoard li{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    /*border:1px solid red;*/
+    background-color:white;
+    border-radius:5px;
+
+}
+
+.toMessage{
+    padding:5px 14px;
+    margin:15px auto 0 auto;
+    width:100%;
+
+}
+
+.content{
+    margin:5px auto 0 auto;
+    padding:5px 14px;
+    width:95%;
+    /*text-align: left;*/
+    text-wrap: normal;
+    font-weight:300;
+
+}
+.fromMessage{
+    margin:5px auto 10px auto;
+    padding:5px 14px;
+    width:100%;
+    text-align: left;
+
 }
