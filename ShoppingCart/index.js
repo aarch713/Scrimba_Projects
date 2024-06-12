@@ -15,9 +15,9 @@ const shoppingListEl = document.getElementById("shopping-list")
 
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
-    
-    push(shoppingListInDB, inputValue)
-    
+    if(inputValue !== ""){
+        push(shoppingListInDB, inputValue)
+    }
     clearInputFieldEl()
 })
 
