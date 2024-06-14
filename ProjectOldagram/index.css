@@ -1,0 +1,144 @@
+
+html{
+    font-family: "Source Sans 3", sans-serif;
+    font-size:16px;
+    
+    width:350px;
+    /* border:5px solid red; */
+    margin:0 auto;
+    border: 1px solid #C6C6C6;
+}
+
+body {
+    margin:0 auto;
+    padding: 0;
+    display:flex;
+    flex-direction:column;
+
+}
+header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+img {
+    margin:0 0;
+    object-fit: contain ;
+    
+}
+
+.sameD{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.main-img{
+    width:100%;
+}
+
+.logo{
+    width:130px;
+    height:50px;
+    margin:10px 0;
+    border-radius:10px;
+}
+header .profile-img{
+    margin:10px 20px;
+}
+
+
+.firstSec{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+   display:flex;
+   /* border:1px solid red; */
+   justify-content: start;
+   align-items: center;
+   width:100%;
+   padding:10px 0;
+}
+.container .profile-img {
+    margin:0 10px;
+}
+.container div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width:100%;
+    text-align: center;
+    
+   
+}
+.container div p{
+    padding:0;
+    margin:0;
+    height:22px;
+}
+
+.bolder{
+    font-weight:bold;
+}
+
+.secondSec{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: start;
+    padding:20px 10px;
+    margin:0;
+    /* border:1px solid red; */
+}
+
+.secondSec div{
+    /* border:1px solid red; */
+    height:32px;
+    width:100%;
+}
+.icons {
+    display:flex;
+    
+}
+
+.icons img {
+    width:30px;
+    height:30px;
+    padding:0 2px;
+    margin:0 8px;
+}
+
+.secondSec .left-icon{
+    margin-left:0;
+}
+
+.secondSec .bolder{
+    margin:10px 0;
+}
+.secondSec .des {
+    margin:0;
+}
+
+.left-icon:hover,
+.mid-icon:hover,
+.rig-icon:hover{
+    box-shadow: 0 0 0 2px black;
+    border-radius:5px;
+}
+
+.profile-img:hover{
+    box-shadow: 0 0 0 2px black;
+    border-radius:50%;
+}
+
+.logo:hover{
+    box-shadow: 0 0 0 2px black;
+
+}
