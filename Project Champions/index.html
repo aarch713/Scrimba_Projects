@@ -10,12 +10,12 @@
 
     </head>
     <body>
-        <img id = "headImage" src="./assets/freddie.png">
+        <img id = "headImage" src="./assets/freddie.png" alt="a figure">
         <h1 id="title">We are the Champions</h1>
         <div id="headContainer">
             <textarea placeholder="Write your endorsement here" class="borderRadius" id="inputInfo"></textarea>
             <div class="sub-container">
-                <input type="text" placeholder="From" class="borderRadius sameWidth sameHeight one" >
+                <input type="text" placeholder="From" class="borderRadius sameWidth sameHeight one" value="1" >
                 <input type="text" placeholder="To" class="borderRadius sameWidth sameHeight two">
             </div>
             <button id="publish-btn" class="borderRadius">Publish</button>
@@ -37,6 +37,11 @@
 
             </ul>
         </div>
-        <script src="index.js" type="module"></script>
+        <script src="index.js" type="module">
+            // const inputArea = document.getElementById("inputInfo")
+            // const fromInput = document.getElementsByClassName("one")
+            // const toInput = document.getElementsByClassName("two")
+
+        </script>
     </body>
 </html>
