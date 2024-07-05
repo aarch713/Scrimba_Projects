@@ -1,0 +1,54 @@
+html{
+    font-size:16px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    font-family:inherit;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #a3caf1, #1f262b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #a3caf1, #1f262b);
+    background-repeat:no-repeat;
+    
+}
+.marginTop{
+    margin-top:1rem;
+}
+
+.marginBottom{
+    margin-bottom:1rem;
+}
+body h1, body h4{
+    font-family: inherit;
+    margin-bottom:0;
+    margin-top:0;
+}
+#activity-name{
+    text-align: center;
+    margin-bottom:1rem ;
+}
+button{
+    font-family: inherit;
+    border-radius: 100%;
+    border: 0.2rem solid blue;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+    text-align:center;
+    margin:auto;
+    padding: auto;
+    font-size: 0.8rem;
+}
+button:hover{
+    box-shadow: 0 0 1rem greenyellow;
+}
+
+
