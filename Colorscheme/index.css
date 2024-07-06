@@ -1,0 +1,171 @@
+html{
+    font-size:16px;
+    box-sizing:border-box;
+    margin:auto;
+    padding:auto;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap: 0.5rem;
+    flex-wrap:wrap;
+    width:100%;
+    padding:0 1rem 2rem 1rem;
+    box-shadow: 0px 15px 5px -15px #111;
+    z-index:1;
+}
+.title{
+    margin-bottom:0.5rem;
+    width:100%;
+    font-size:1.8rem;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.title > span{
+    text-shadow: 0 0 3px rgb(225, 39, 141);
+}
+.color_preview{
+    
+    width:30%;
+    height:2.5rem;
+    border: 3px solid #E5E5E5;
+    max-width:3rem;
+    cursor:pointer;
+}
+
+.color_preview:hover{
+    border: 3px solid #c1c1c1;
+}
+#color-option {
+    height:2.3rem;
+    padding-left:1rem;
+    border: 2px solid #E5E5E5;
+    background-color: white;
+    width:50%;
+    max-width:20rem;
+
+    
+}
+
+#color-option:hover{
+    border: 2px solid #c1c1c1;
+}
+
+.borRadius_0-4{
+    border-radius:0.4rem;
+}
+
+.fontSize_1{
+    font-size:1rem;
+}
+
+.get-btn{
+    padding:0.4rem 0.6rem;
+    background-color: white;
+    border:2px solid #E5E5E5;
+    cursor:pointer;
+    
+}
+
+.get-btn:hover{
+    background-color: #E5E5E5;
+    border:2px solid #c1c1c1;
+}
+
+.get-btn:active{
+    background-color: #c1c1c1;
+    border:2px solid #c1c1c1;
+}
+
+
+
+.color-section{
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    width:100%;
+
+    min-height:25rem;
+}
+
+.colorCard{
+    height:100%;
+    width:100%;
+    
+}
+
+.colorView:hover{
+    box-shadow: inset 0px 0px 4px 4px greenyellow ;
+
+}
+
+.colorCard .colorView{
+    height:85%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:0.8rem;
+    text-align: center;
+    cursor:pointer;
+}
+
+
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:50%;
+    padding:1rem 0;
+    border: 2px solid #D6D9DF;
+    min-width:400px;
+
+}
+
+#color_1{
+    background-color:#F55A5A ;
+}
+
+#color_2{
+    background-color:#2B283A ;
+}
+
+#color_3{
+    background-color:#FBF3AB ;
+}
+
+#color_4{
+    background-color:#AAD1B6 ;
+}
+
+#color_5{
+    background-color:#A626D3;
+}
+
+
+
+@media only screen and (max-width: 1117px) {
+    .get-btn{
+        width: 67%;
+    }
+}

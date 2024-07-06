@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="borRadius_0-4">
+            <div class="top" id ="top_section">
+                
+                <h1 class="title textCenter"><span style ="color:#F55A5A;">C</span><span style ="color:#2B283A;">o</span><span style ="color:#FBF3AB;">l</span><span style ="color:#AAD1B6;">o</span><span style ="color:#A626D3;">r</span> Scheme Generator</h1>
+                <input type="color" id="color_preview" name="color-preview" class="color_preview borRadius_0-4" aria-label="color preview"/>
+                <label for="color" aria-label="select color"></label>
+                <select name="color-options" id="color-option" class="fontSize_1 borRadius_0-4" title="color selector">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="get-btn" class="get-btn fontSize_1 borRadius_0-4">Get color scheme</button> 
+                <p id="output"></p>
+            </div>
+            <section class="color-section">
+                <div class="colorCard">
+                    <div class="colorView tooltip" alt="Copy" id ="color_1"></div>
+                    <p class="colorHex textCenter">#D6D9DF</p>
+                </div>
+
+                <div class="colorCard">
+                    <div class="colorView tooltip" id ="color_2">
+                    </div>
+                    <p class="colorHex textCenter">#F55A5A</p>
+                </div>
+
+                <div class="colorCard">
+                    <div class="colorView tooltip" id ="color_3"></div>
+                    <p class="colorHex textCenter">#2B283A</p>
+                </div>
+
+                <div class="colorCard">
+                    <div class="colorView tooltip" id ="color_4"></div>
+                    <p class="colorHex textCenter">#AAD1B6</p>
+                </div>
+
+                <div class="colorCard">
+                    <div class="colorView tooltip" id ="color_5"></div>
+                    <p class="colorHex textCenter">#A626D3</p>
+                </div>
+
+            </section>
+
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
