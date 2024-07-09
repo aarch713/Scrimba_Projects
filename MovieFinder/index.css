@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-family: "Space Grotesk", sans-serif;
+    font-size:16px;
+    margin:0;
+    padding:0;
+    background-color:#000000;
+    position:relative;
+    height:100vh;
+}
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+    
+
+main{
+    height:100%;
+    
+}
+.imgContainer{
+    position:fixed;
+    top:0;
+    left:auto;
+    margin:auto;
+    object-fit: contain;
+    height:27%;
+    width:100%;
+    z-index:-1;
+    
+}
+.banner{
+    filter:brightness(30%);
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.title{
+    color:white;
+    margin:auto;
+    height:27%;
+    display:flex;
+    justify-content: space-between;
+    padding:0 3.5rem;
+    align-items: center;
+    font-size:1.7rem;
+    
+}
+.smallerFont{
+    font-size:1.2rem;
+}
+.bodyhalf{
+    color:white;
+    height:75%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: start;
+    padding:0 3.5rem;
+
+}
+
+.searchBar{
+    /* Adjust search bar postion */
+    margin-top:-1.8rem;
+    width:100%;
+    height:3rem;
+
+    display:flex;
+    flex-wrap:nowrap;
+    gap:0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#form{
+    margin:auto;
+    display:flex;
+    width:100%;
+    flex-wrap:nowrap;
+    gap:0;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+#form i{
+    top:30%;
+    left:1.2rem;
+    position:absolute;
+    font-size:1.3rem;
+    z-index:3;
+}
+#movieSearch{
+    width:80%;
+    height:100%;
+    padding:1.5rem 2rem 1.5rem 3.5rem;
+    margin:0;
+    background-color:#2E2E2F;
+    color:white;
+    height:2rem;
+    border:none;
+    font-size:1.2rem;
+    z-index:2;
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius:0.5rem;
+}
+#searchBtn{
+    width:20%;
+    height:100%;
+    padding:auto;
+    text-align: center;
+    color:white;
+    border:none;
+    background-color:#4B4B4B;
+    cursor:pointer;
+    font-size:1.2rem;
+    border-top-right-radius:0.5rem;
+    border-bottom-right-radius:0.5rem;
+}
+.exploringHolder{
+    border: 2px solid red;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    margin:auto auto auto;
+    color:#2E2E2F;
+    overflow: hidden;
+    text-align: center;
+    
+
+}
+.exploringHolder i {
+    font-size:6rem;
+}
+.exploringHolder p{
+    font-size: 1.5rem;
+    margin-top:0.5rem;
+    font-weight:900;
+}
+.result{
+    margin-top:2rem ;
+    width:100%;
+    height:auto;
+    
+}
+
+.filmcard{
+    display:flex;
+    flex-wrap: nowrap;
+    width:100%;
+    height:100%;
+    margin:auto;
+}
+
+.filmcard img{
+    width:25%;
+    height:100%;
+    object-fit: cover;
+
+}
+.filminfo{
+    width:75%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: start;
+    font-size:1.4rem;
+
+}
+.padding2rem{
+    width:100%;
+    padding:0 2.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    gap:0'
+}
+hr{
+    height:3px;
+    color:#2C2C2C;
+    background-color:#2C2C2C ;
+    margin:1.5rem auto 1rem;
+
+}
+.hidden{
+    display:none;
+}
+.filmdetail> button{
+    margin-left:1rem;
+    font-size:1.4rem;
+    border:none;
+    background-color:black;
+    color:white;
+}
+.filmdetail> button i{
+    margin-right:0.3rem;
+}
+
+.filmtitle{
+   
+    font-size:1.5rem;
+}
+.filmtitle p{
+    font-size:1.2rem;
+    margin-left:3rem;
+}
+
+.filmdetail{
+    margin-top:0;
+    
+    font-size:1.2rem;
+    font-weight:100;
+}
+
+.description{
+    font-size:1.5rem;
+    color:#A5A5A5;
+    margin:0;
+    font-weight:100;
+}

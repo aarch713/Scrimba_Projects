@@ -1,0 +1,78 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <title>OMDb Movie Finder</title>
+        <link rel="stylesheet" href="./index.css">
+
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Aaron Chai">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Find detailed information about movies, including ratings, reviews, cast, and more with our movie finder powered by the OMDb API. Search for your favorite movies, explore new releases, and discover hidden gems in the world of cinema.">
+        <script src="https://kit.fontawesome.com/1c9413ffa8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <div class="imgContainer">
+                <img src="./movie-back.jpg" alt="movie-banner" class="banner">
+            </div>
+            
+            <div class="title">
+                <h1>Find your film</h1>
+                <p class="smallerFont">My Watchlist</p>
+            </div>
+            <div class="bodyhalf">
+                <div class="searchBar">
+                    <form id="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" id="movieSearch" name="searchBar" placeholder="Search by a movie title">
+                        <button type="submit" id="searchBtn">Search</button>
+                    </form>
+                </div>
+                <div class="exploringHolder hidden">
+                    <i class="fa-solid fa-film"></i>
+                    <p>Start exploring</p>
+                </div>
+                <div class="exploringHolder hidden">
+                    <p style="color:#787878">Unable to find what you're looking for. Please try another search.</p>
+                </div>
+                <div class="result">
+                    <div class="filmcard">
+                        <img src="./sea.jpg" alt="film poster">
+                        <div class="filminfo">
+                            <div class="filmtitle padding2rem" id="filmname">
+                                <h1 >Blade Runner</h1>
+                                <p>8.1</p>
+                            </div>
+
+                            <div class="filmdetail padding2rem">
+                                <p>164 min</p>
+                                <p>Drama, Mystery, Sci-fi</p>
+                                <button type="button"><i class="fa-solid fa-circle-plus"></i>Watchlist</button>
+                            </div>
+
+                            <p class="description padding2rem">A blade runner must pursue and terminate four
+                                replicants who stole a ship in space, and have
+                                returned to Earth to find their creator.</p>
+                            
+
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            
+        </main>
+        <script src="./index.js"></script>
+    </body>
+
+    <footer>
+
+    </footer>
+    
+</html>
+
