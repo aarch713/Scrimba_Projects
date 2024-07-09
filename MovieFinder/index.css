@@ -188,13 +188,17 @@ main{
 }
 hr{
     height:3px;
-    color:#2C2C2C;
-    background-color:#2C2C2C ;
-    margin:1.5rem auto 1rem;
+    color:white;
+    background-color: white;
+    margin:2rem auto 2rem;
 
 }
 .hidden{
     display:none;
+}
+
+.subContainer{
+   
 }
 .filmdetail> button{
     margin-left:1rem;
@@ -229,3 +233,4 @@ hr{
     margin:0;
     font-weight:100;
 }
+
