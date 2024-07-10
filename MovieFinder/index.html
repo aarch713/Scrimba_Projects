@@ -23,48 +23,30 @@
             
             <div class="title">
                 <h1>Find your film</h1>
-                <p class="smallerFont">My Watchlist</p>
+                <p class="smallerFont"><a class="watchlist" id="watchListBtn" href="./watchlist.html">My Watchlist</a></p>
+            </div>
+            <div class="searchBar">
+                <form id="form" name="form1">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" id="movieSearch" name="searchBar" placeholder="Search by a movie title">
+                    <button type="submit" id="searchBtn">Search</button>
+                </form>
             </div>
             <div class="bodyhalf">
-                <div class="searchBar">
-                    <form id="form" name="form1">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="search" id="movieSearch" name="searchBar" placeholder="Search by a movie title">
-                        <button type="submit" id="searchBtn">Search</button>
-                    </form>
-                </div>
-                <div class="exploringHolder hidden">
+                
+                <div class="exploringHolder userSelectionNone" id="blank">
                     <i class="fa-solid fa-film"></i>
                     <p>Start exploring</p>
                 </div>
-                <div class="exploringHolder hidden">
+                <div class="exploringHolder hidden userSelectionNone" id="errorPage">
                     <p style="color:#787878">Unable to find what you're looking for. Please try another search.</p>
                 </div>
+                <div class="exploringHolder hidden userSelectionNone" id="blankError">
+                    <p style="color:#787878">Please enter a movie name to search!</p>
+                </div>
                 <div class="result">
-                    <div>
-                        <div class="filmcard">
-                            <img src="./sea.jpg" alt="film poster">
-                            <div class="filminfo">
-                                <div class="filmtitle padding2rem" id="filmname">
-                                    <h1 >Blade Runner</h1>
-                                    <p>8.1</p>
-                                </div>
-    
-                                <div class="filmdetail padding2rem">
-                                    <p>164 min</p>
-                                    <p>Drama, Mystery, Sci-fi</p>
-                                    <button type="button"><i class="fa-solid fa-circle-plus"></i>Watchlist</button>
-                                </div>
-    
-                                <p class="description padding2rem">A blade runner must pursue and terminate four
-                                    replicants who stole a ship in space, and have
-                                    returned to Earth to find their creator.</p>
-                                
-    
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
+                    
+                
                     
 
                     <!-- ---- -->
@@ -76,10 +58,6 @@
         </main>
         <script src="./index.js"></script>
     </body>
-
-    <footer>
-
-    </footer>
     
 </html>
 
