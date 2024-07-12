@@ -1,9 +1,14 @@
+import Maincontent from './Maincontent.jsx'
+import Photo from './Photo.jsx'
+import Footer from './Footer.jsx'
 
-function App() {
-  
 
+function App(){
   return (
     <>
+      <Photo />
+      <Maincontent />
+      <Footer />
     </>
   )
 }

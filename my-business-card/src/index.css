@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing:border-box;
+    place-content: center;
+}
+
+html, body{
+    background:#F5F5F5;
+    color:#4A4E74;
+    padding:0;
+    margin:0;
+    font-family: "Libre Franklin", sans-serif;
+    font-size:16px;
+    min-width: 500px;
+    max-width: 600px;
+    margin:auto;
+
+}
+
+h1{
+    color:black;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:auto;
+
+}
+
+.photoContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photoContainer > img{
+    object-fit: cover;
+   
+    width:100%;
+}
+
+main{
+    margin: 0 2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+}
+.name{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+.name> h1 {
+    margin:1rem auto 0.5rem auto;
+    padding:0;
+
+    
+}
+.name> h2 {
+    margin:1rem auto 2rem auto;
+    padding:0;
+
+}
+.email, .linkedin{
+    display:flex;
+    gap:0.5rem;
+    font-size:1.4rem;
+    padding:0.8rem 4rem;
+    margin:0;
+    
+    width:10rem;
+    border-radius:10px;
+}
+.email{
+    border:2px solid #D1D5DB;
+    margin:0;
+    padding:0;
+    background-color: #FFF;
+    
+}
+
+.linkedin{
+    background-color: #2A7FE5;
+    color:white;
+}
+a >i, a> p{
+    padding:0;
+    margin:0;
+}
+
+
+.buttons{
+    display:flex;
+    flex-direction:row;
+    gap:2rem ;
+    
+    width:80%;
+    height:fit-content;
+}
+
+
+footer{
+    height:10vh;
+    background-color: #D5D4D8;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    font-size:3rem;
+    color:white;
+}
+
+a{
+    color:#918E9B;
+    text-decoration: none;
+}
+
+
+.des p{
+    margin-top:-1rem;
+    padding-top:0;
+    font-size:1.1rem;
+}
+
+.phoneNum{
+    font-size:1.5rem;
+    margin-left:-1.6rem;
+    padding-left:0;
+    color:#918E9B;
+}
+
+@media only screen and (min-width: 599px){
+    html{
+        border: 2px solid #D5D4D8;
+        border-radius:10px;
+    }
+}
