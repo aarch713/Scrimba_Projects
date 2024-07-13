@@ -43,5 +43,41 @@ export default [
         endDate: "31 Jul, 2021",
         description: "The Sydney Opera House is a world-renowned performing arts center located on Sydney Harbour. Its distinctive sail-like design makes it one of the most recognizable buildings in the world.",
         imageUrl: "https://images.unsplash.com/photo-1616128618694-96e9e896ecb7?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        title: "Grand Canyon",
+        location: "USA",
+        googleMapsUrl: "https://maps.app.goo.gl/HTF1Yavis5tyh6b9A",
+        startDate: "01 Aug, 2021",
+        endDate: "07 Aug, 2021",
+        description: "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. It is a major landmark and tourist attraction known for its immense size and its intricate and colorful landscape.",
+        imageUrl: "https://plus.unsplash.com/premium_photo-1672688161313-24499793f73a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        title: "Santorini",
+        location: "Greece",
+        googleMapsUrl: "https://maps.app.goo.gl/hHC43VwFeaATFY5P7",
+        startDate: "20 Sep, 2021",
+        endDate: "27 Sep, 2021",
+        description: "Santorini is a volcanic island in the Aegean Sea, known for its stunning sunsets, white-washed buildings, and blue-domed churches. It is a popular destination for travelers seeking picturesque views and a serene atmosphere.",
+        imageUrl: "https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        title: "Statue of Liberty",
+        location: "USA",
+        googleMapsUrl: "https://maps.app.goo.gl/a7XB6eXKUGoWw6mCA",
+        startDate: "10 Oct, 2021",
+        endDate: "15 Oct, 2021",
+        description: "The Statue of Liberty is an iconic symbol of freedom and democracy located on Liberty Island in New York Harbor. It was a gift from France to the United States and has become a national monument attracting millions of visitors each year.",
+        imageUrl: "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?q=80&w=1199&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        title: "Christ the Redeemer",
+        location: "Brazil",
+        googleMapsUrl: "https://maps.app.goo.gl/wokcC6vNJkhWpf1o9",
+        startDate: "05 Nov, 2021",
+        endDate: "12 Nov, 2021",
+        description: "Christ the Redeemer is an iconic statue of Jesus Christ located in Rio de Janeiro, Brazil. Standing at 30 meters (98 feet) tall, it is a symbol of Christianity and a major tourist attraction offering panoramic views of the city.",
+        imageUrl: "https://images.unsplash.com/photo-1655642272518-05aaf7b8726e?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
-]
+];

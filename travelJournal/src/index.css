@@ -1,68 +1,167 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  font-size:16px;
+  font-family: "Cormorant Garamond", serif;
+  margin:0;
+  padding:0;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+body{
+  margin:0;
+  height:100vh;
+  padding:0;
+  position:relative;
+
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+*{
+  box-sizing:border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+
+header{
+  position:fixed;
+  width:100%;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+  top:0;
+  background-color:#DA5552 ;
+  /* max-height:8vh; */
+  z-index: 3;
+  max-height:6rem;
+  max-height:4rem;
+  box-shadow: 0 4px 2px -2px gray;
+}
+header > i{
+  font-size:2.5rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color:#DA5552 ;
+  
+  max-height:4rem;
+  min-height:3rem;
+  text-align: center;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  z-index:1;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+
 }
-button:hover {
-  border-color: #646cff;
+main{
+  z-index:-3;
+  height:100%;
+  margin:3rem auto 3.5rem;
+
+  overflow-y: scroll;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.siteCard{
+  z-index:-3;
+  display:flex;
+  height:fit-content;
+  justify-content: center;
+  align-items: center;
+  margin:2rem 1rem;
+  padding:1rem 2rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.siteCard > img{
+  object-fit: cover;
+  width:30rem;
+  border-radius: 2rem;
+}
+
+.desc{
+  max-width:800px;
+  margin:1rem;
+  padding:1rem;
+  display:flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction:column;
+}
+
+.location{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.location > p{
+  
+  margin:0 2rem 0 0.2rem;
+}
+
+.location > i{
+ color:#F55A5A;
+}
+
+.format0{
+  margin:0;
+  padding:0;
+}
+
+a{
+  color:#DA5552;
+  text-decoration: none;
+}
+
+.desc p{
+  font-size:1.3rem;
+}
+.desc h2{
+  font-size:2rem;
+  margin-bottom:1rem;
+}
+
+
+
+.dateP{
+  margin:0 0 1rem 0;
+  font-weight:600;
+}
+
+.descs{
+  width:100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .siteCard{
+    display:flex;
+    flex-direction:column;
+    padding:0.5rem auto;
+    margin:0.5rem auto;
+    
   }
-  a:hover {
-    color: #747bff;
+  .siteCard img{
+    max-width:100%;
+    object-fit: auto;
   }
-  button {
-    background-color: #f9f9f9;
+.desc{
+    margin:0 0.5rem;
+    padding:0 0.5rem 2rem 0;
+    font-size:0.6rem;
+    
+    
   }
+  
+  .siteCard:not(:last-child){
+    border-bottom:2px solid grey;
+  }
+
+  main{
+    margin-top:3.5rem;
+  }
+  .fa-solid{font-size:1.2rem;}
 }
