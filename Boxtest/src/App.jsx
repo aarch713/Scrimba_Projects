@@ -26,7 +26,7 @@ const squareElements = squares.map(square => (
 
   return (
     <main>
-      {/* {squareElements} */}
+      {squareElements}
     </main>
   )
 }
